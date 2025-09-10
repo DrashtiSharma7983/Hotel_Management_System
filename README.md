@@ -1,4 +1,4 @@
-Hotel Reservation System
+Hotel Management System
 
 The Hotel Reservation System is a Java-based desktop application designed to simplify hotel management tasks. From handling reservations to updating guest details, this system streamlines day-to-day operations and helps keep your hotel business organized.
 
@@ -20,15 +20,15 @@ MySQL Connector/J (JDBC Driver)
 Clone this repository:
 git clone https://github.com/DrashtiSharma7983/Hotel_Management_System.git
 
-Configure database connection inside HotelReservationSystem.java:
+Configure database connection inside Main.java:
 private static final String DB_URL = "jdbc:mysql://localhost:3306/hotel_db";
 private static final String DB_USER = "your_username";
 private static final String DB_PASSWORD = "your_password";
 
 
 Compile and run the application:
-javac HotelReservationSystem.java
-java HotelReservationSystem
+javac Main.java
+java Main
 
 📋 Usage
 
